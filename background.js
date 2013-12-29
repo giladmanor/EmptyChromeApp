@@ -2,10 +2,11 @@
  * @author Gilad Manor
  */
 chrome.app.runtime.onLaunched.addListener(function() {
-  chrome.app.window.create('window.html', {
-    'bounds': {
-      'width': 400,
-      'height': 500
+  chrome.app.window.create('main.html', {
+  	id: "EmptyApp",
+    bounds: {
+      width: 790,
+      height: 600
     }
   });
 });
