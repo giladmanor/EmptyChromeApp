@@ -1,6 +1,6 @@
 {
-  "name": "Empty Chrome App",
-  "description": "Do-Nothing App",
+  "name": "Hubitus",
+  "description": "Hubitus App",
   "version": "0.1",
   "app": {
     "background": {

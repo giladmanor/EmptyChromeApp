@@ -4,7 +4,7 @@ function initApp() {
 	console.log("initApp");
 	var webview = document.querySelector('webview');
 	doLayout();
-	document.querySelector('webview').src = "https://medium.com/p/2fe38d8bbe59";
+	document.querySelector('webview').src = "http://hubitus.com/page0.php";
 
 };
 

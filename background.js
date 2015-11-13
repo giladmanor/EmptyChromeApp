@@ -3,10 +3,10 @@
  */
 chrome.app.runtime.onLaunched.addListener(function() {
   chrome.app.window.create('main.html', {
-  	id: "EmptyApp",
+  	id: "Hubitus",
     bounds: {
-      width: 1290,
-      height: 950
+      width: 320,
+      height: 660
     }
   });
 });
